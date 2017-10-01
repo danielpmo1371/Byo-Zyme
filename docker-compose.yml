@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  byo-zyme:
+    image: byo-zyme
+    build:
+      context: ./Byo-Zyme
+      dockerfile: Dockerfile
